@@ -15,11 +15,11 @@
     "dom"
   ],
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
     "doc-install": "npm install --no-save bsdoc",
-    "test": "bsb -make-world && bsdoc build api && bsdoc support-files",
+    "test": "rescript build && bsdoc build api && bsdoc support-files",
     "refmt-all": "find src tests \\( -name '*.re' -o -name '*.rei' \\) | xargs bsrefmt -w 100 --in-place"
   },
   "files": [
@@ -29,9 +29,9 @@
   "author": "Tiny Technologies Inc",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^9.0.2"
+    "rescript": "^9.1.4"
   },
   "dependencies": {
-    "bs-fetch": "^0.6.2"
+    "bs-fetch": "plow-technologies/bs-fetch#960d284ebcffc0d097c164edec428c1bd80da53b"
   }
 }
