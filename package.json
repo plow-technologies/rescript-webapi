@@ -32,6 +32,6 @@
     "rescript": "^9.1.4"
   },
   "dependencies": {
-    "bs-fetch": "plow-technologies/bs-fetch#960d284ebcffc0d097c164edec428c1bd80da53b"
+    "bs-fetch": "git+https://github.com/plow-technologies/bs-fetch#960d284ebcffc0d097c164edec428c1bd80da53b"
   }
 }

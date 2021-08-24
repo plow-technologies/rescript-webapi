@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-bs-fetch@plow-technologies/bs-fetch#960d284ebcffc0d097c164edec428c1bd80da53b:
+"bs-fetch@git+https://github.com/plow-technologies/bs-fetch#960d284ebcffc0d097c164edec428c1bd80da53b":
   version "0.7.0"
-  resolved "https://codeload.github.com/plow-technologies/bs-fetch/tar.gz/960d284ebcffc0d097c164edec428c1bd80da53b"
+  resolved "git+https://github.com/plow-technologies/bs-fetch#960d284ebcffc0d097c164edec428c1bd80da53b"
 
 rescript@^9.1.4:
   version "9.1.4"
